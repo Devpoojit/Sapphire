@@ -1,0 +1,38 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Setting up background and centering content */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #74b9ff, #0984e3);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+/* Container for the content */
+.container {
+    text-align: center;
+}
+
+/* Content styling */
+.content {
+    text-align: center;
+}
+
+/* Styling the heading */
+h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+/* Styling the paragraph */
+p {
+    font-size: 1.5rem;
+}
